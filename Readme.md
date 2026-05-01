@@ -120,8 +120,6 @@ This application is targeted for Windows (uses native icon resolution and Window
 - Windows 10 / 11 (x86-64)
 - Node.js ≥ 18
 
----
-
 ## Installation
 
 ```bash
