@@ -130,6 +130,14 @@ cd FileManager
 npm install
 ```
 
+## Download
+
+The Windows executable is published on GitHub Releases:
+
+https://github.com/sahilbajaj2004/FileManager/releases
+
+Download the latest `.exe` from the newest release and run it directly on Windows 10/11.
+
 ## Run / Development
 
 - Install dependencies:
@@ -166,13 +174,13 @@ Notes:
 
 ## Build
 
-Produces a Windows installer:
+Produces a Windows portable executable:
 
 ```bash
 npm run build
 ```
 
-Output is written to the `dist/` directory.
+Output is written to the `dist/` directory locally, and the GitHub Actions release workflow publishes the `.exe` to GitHub Releases.
 
 ---
 
