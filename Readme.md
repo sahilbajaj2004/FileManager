@@ -120,8 +120,6 @@ This application is targeted for Windows (uses native icon resolution and Window
 - Windows 10 / 11 (x86-64)
 - Node.js ≥ 18
 
----
-
 ## Installation
 
 ```bash
@@ -129,6 +127,14 @@ git clone https://github.com/sahilbajaj2004/FileManager.git
 cd FileManager
 npm install
 ```
+
+## Download
+
+The Windows executable is published on GitHub Releases:
+
+https://github.com/sahilbajaj2004/FileManager/releases
+
+Download the latest `.exe` from the newest release and run it directly on Windows 10/11.
 
 ## Run / Development
 
@@ -166,13 +172,13 @@ Notes:
 
 ## Build
 
-Produces a Windows installer:
+Produces a Windows portable executable:
 
 ```bash
 npm run build
 ```
 
-Output is written to the `dist/` directory.
+Output is written to the `dist/` directory locally, and the GitHub Actions release workflow publishes the `.exe` to GitHub Releases.
 
 ---
 
