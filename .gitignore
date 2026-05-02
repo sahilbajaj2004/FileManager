@@ -2,9 +2,12 @@
 node_modules/
 
 # Build output
-dist/
 out/
 release/
+dist/
+
+# Tool caches
+.eslintcache
 
 # Native module build artifacts
 src/gio/build/
